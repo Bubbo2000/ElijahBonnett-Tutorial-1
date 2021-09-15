@@ -23,9 +23,10 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lives = 3;
+        
         rb = GetComponent<Rigidbody>();
         count = 0;
+        lives = 3;
 
         SetCountText();
         winTextObject.SetActive(false);
