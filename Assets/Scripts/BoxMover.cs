@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+{
 // Transforms to act as start and end markers for the journey.
 public Transform startMarker;
 public Transform endMarker;
@@ -35,4 +35,5 @@ void Update()
 
     // Set our position as a fraction of the distance between the markers and pingpong the movement.
     transform.position = Vector3.Lerp(startMarker.position, endMarker.position, Mathf.PingPong(fracJourney, 1));
+}
 }
