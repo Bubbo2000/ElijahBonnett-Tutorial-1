@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-{
+
+
 // Transforms to act as start and end markers for the journey.
+{
 public Transform startMarker;
 public Transform endMarker;
 
