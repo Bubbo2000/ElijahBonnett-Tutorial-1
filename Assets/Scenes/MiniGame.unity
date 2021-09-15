@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 71233809}
   - component: {fileID: 71233808}
   m_Layer: 5
-  m_Name: LivesText
+  m_Name: livesText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2126,9 +2126,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   countText: {fileID: 473112984}
-  livesText: {fileID: 0}
+  livesText: {fileID: 71233808}
   winTextObject: {fileID: 1802439426}
-  loseTextObject: {fileID: 0}
+  loseTextObject: {fileID: 672982876}
 --- !u!114 &1119394975
 MonoBehaviour:
   m_ObjectHideFlags: 0
