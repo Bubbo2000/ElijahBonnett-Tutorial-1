@@ -64,10 +64,10 @@ public class PlayerController : MonoBehaviour
             count = count - 1;
             SetCountText();
         }
-            if (count==6)
-            {
-        transform.position = new Vector3()
-            }
+        if (count == 6)
+        {
+            transform.position = new Vector3(-5.0f, 1.0f, -50.0f);
+        }
     }
 
 }
